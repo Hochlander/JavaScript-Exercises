@@ -1,0 +1,28 @@
+/* Seguindo a aula #8 do the new boston 
+sobre funções com múltiplos parâmetros */
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+// a linha abaixo define a função e os parâmetros da função
+	function balito(um, dois){
+		document.write(um + " é melhor que " + dois + "<br/>");
+	}
+	
+	// as linhas abaixo chamam a função "balito"
+	// três vezes, e atribuem trÊs conteúdos diferentes 
+	// para cada vez que a função é chamada
+	balito ("cantar", "estudar");
+	balito ("codar", "acordar");
+	balito ("Obina", "Gordo");
+
+
+</script>
+
+
+</body>
+</html>	
