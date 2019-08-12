@@ -1,0 +1,25 @@
+// a partir da aula thenewboston Beginner JAvaScript #6
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+function balito(){
+	alert("não me toque, menino");
+}
+
+
+</script>
+
+<form>
+// a funcão balito, abaixo, é chamda entre aspas.
+// cria-se o botão, atribui-se um valor a ele 
+//(ou seja, o que ele exibirá de texto), e chama-se a função
+<input type = "button" value = "touch me" onclick = "balito()">
+</form>
+
+</body>
+</html>	
