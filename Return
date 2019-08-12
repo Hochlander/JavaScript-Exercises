@@ -1,0 +1,28 @@
+// the new boston, aula #9, JAvaScript for beginners
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+// define-se a função e os parâmetros da função
+	function some_isso(a, b){
+		
+		// define-se a terceira variável, soma das duas outras
+		var c = a+b;
+		
+		//pede-se o retorno da soma, i.e., da terceira variável
+		return c;
+	}
+	
+  // então dá-se os valores
+	document.write(some_isso(10,1));
+	
+	
+</script>
+
+
+</body>
+</html>	
