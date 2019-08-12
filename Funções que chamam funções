@@ -1,0 +1,41 @@
+// seguindo a aula #10 do the new boston JavaScript for beginners
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+// define-se a primeira função sem parâmetros
+	function primeira(){
+		document.write("sou a primeira função" + "</br>");
+	}
+	
+	// define-se a segunda função, tb sem parâmetros
+	function segunda(){
+		document.write("sou a segunda função");
+	}
+
+	// define-se a terceira função, que chama as outras duas juntas	
+	function dale(){
+		primeira();
+		segunda()
+	}
+
+	// até aqui, repare que não há nenhuma comando para execução de função.
+	// o que rolou, acima, foi tão-somente a atribuição de nomes e valores Às funções
+	
+	// a linha abaixo executa a função dale
+	dale();	
+		
+	
+</script>
+
+
+</body>
+</html>	
+
+// output:
+sou a primeira função
+sou a segunda função
