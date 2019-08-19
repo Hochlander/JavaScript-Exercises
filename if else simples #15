@@ -1,0 +1,26 @@
+// aula 15, if else simples
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+ 
+	var azul = 45;
+	var vermelho = 80;
+	
+	if (vermelho==azul){
+		document.write("são iguais");
+	} else{
+		document.write("são diferentes");
+	}		
+	
+</script>
+</body>
+</html>	
+
+// output
+
+são diferentes
