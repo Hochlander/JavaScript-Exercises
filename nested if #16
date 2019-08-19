@@ -1,0 +1,24 @@
+// aula 16, nested if 
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+ 
+	var primeiro = 1;
+	var segundo = 2;
+	
+	if (primeiro==1){
+		if(segundo===3){
+		document.write("um mais dois");
+		} else{
+		document.write("um mais outro");
+		}
+	}		
+	
+</script>
+</body>
+</html>	
