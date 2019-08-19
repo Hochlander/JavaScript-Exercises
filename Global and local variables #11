@@ -1,0 +1,53 @@
+	/* aula #11 variáveis globais e locais**/
+	
+	
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+// aqui, variável balito é criada fora da função. é, portanto, global
+ var nome = " balito ";
+	
+	function anuncio(){
+		document.write(nome);
+	}
+	
+	// anuncio chama a função
+	anuncio();
+	
+	// abaixo, chama-se a variável global, que também é exibida
+	document.write(nome);
+
+		
+	
+</script>
+
+<script type="text/javascript">
+
+// aqui, variável balito é criada dentro da função. é, portanto, local
+ 
+	
+	function prognostico(){
+		var fera = " ferita ";
+		document.write(fera);
+	}
+	
+	// "ferita" é exibido só uma vez, por conta da função prognostico
+	prognostico();
+	
+	// variável fera não pode ser chamada pq é local
+	document.write(fera);
+
+		
+	
+</script>
+</body>
+</html>	
+
+//output
+
+/* aula #11 variáveis globais e locais**/ balito balito ferita
