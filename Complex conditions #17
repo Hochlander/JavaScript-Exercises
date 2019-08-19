@@ -1,0 +1,26 @@
+// aula 17, complex conditions  
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+ 
+	var primeiro = 1;
+	var segundo = 2;
+	
+	//abaixo, pode ser "or", "and" et "no".
+	if ((primeiro==1)|| (segundo==3)){
+		document.write("um mais outro");
+		
+	}		
+	
+</script>
+</body>
+</html>	
+
+// output 
+
+um mais outro
