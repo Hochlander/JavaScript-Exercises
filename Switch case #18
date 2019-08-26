@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+// aula 18, switch case
+ 
+	var jogador = "Evair";
+	
+	switch(jogador){
+		case "Evair":
+			document.write("é matador");
+			// a função do break é parar o loop no caso de o valor verdadeiro ser encontrado
+			break;
+		case "Edmundo":
+			document.write("é animal");
+			break;
+		
+		// default é o comando do que fazer se o programa não encontrou nenhum match
+		default:
+			document.write("é pereba");
+			break;
+
+	}		
+	
+</script>
+</body>
+</html>	
