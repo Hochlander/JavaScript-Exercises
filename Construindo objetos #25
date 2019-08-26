@@ -1,0 +1,28 @@
+ // construindo objetos em JavaScript #25
+
+<html>
+<head>
+<script type="text/javascript">
+// a praxe é construir os objetos no cabeçalho
+
+	function pessoa(nome, idade){
+		//"this" é o mecanismo de atribuir propriedades a instâncias deste objeto
+		this.nome = nome;
+		this.idade = idade;
+	}
+	// aqui, cria-se as instâncias dos objetos
+	var balito = new pessoa("Balito davila", 29);
+	var Evair = new pessoa ("Evair o Matador", 53);
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	// o comando para exibição de objetos deve ser feito no corpo
+	// a sintaxe para chamar a informação é instÂncia.atributo
+	
+	document.write(balito.idade);
+	document.write(Evair.nome);
+</script>	
+</form>
+</body>
+</html>	
