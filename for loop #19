@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+// aula 19, for loop
+// é praticamente idêntico à sintaxe do llop for em Java. 
+// nesse caso, só muda a sintaxe para exibição da mensagem
+ 
+	for (x=0; x<10; x+=2){
+		document.write("Eoh eoh, Evair eh matador <br/>")
+
+	}		
+	
+</script>
+</body>
+</html>	
