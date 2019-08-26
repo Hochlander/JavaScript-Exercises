@@ -1,0 +1,18 @@
+
+<html>
+<head>
+</head>
+<body>
+
+// aula 22, event handlers
+ 
+// agora a coisa fica interessante, pq não é necessário declarar o javascript pra fazer event handling
+
+<form>
+	// onclick é uma função built-in 
+	<input type = "button" value="toca aqui" onClick= "alert ('tudo certo?'); alert('eh nois');"/>
+	
+</form>
+</body>
+</html>	
+
