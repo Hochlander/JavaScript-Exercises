@@ -1,0 +1,24 @@
+//aula 26, object initializers
+
+<html>
+<head>
+<script type="text/javascript">
+// a praxe é construir os objetos no cabeçalho
+
+// com object initializers, parte-se direto para o objeto, sem criar uma funçao
+// não se anuncia a variável com "var"
+	balito = { nome:"Balito davila", idade:29};
+	evair = {nome:"Evair o Matador", idade:53};
+		
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	// feito isso, pode-se chamar objeto e atributo, da mesma forma que com o construtor
+	
+	document.write(balito.nome + " cumprimenta " + evair.nome + 
+	" por seu aniversário de " + evair.idade +" anos");
+	
+</script>	
+</body>
+</html>	
