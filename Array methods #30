@@ -1,0 +1,21 @@
+ // aula 30, array methods
+
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+	var idolos93 = new Array("Evair", "Edmundo", "Tonhao");
+	var idolos74 = new Array ("Ademir", "Leiva", "César Maluco");
+	var todosidolos = idolos93.concat(idolos74);
+	// o método abaixo dá o tamanho do array
+	
+	document.write(todosidolos);
+
+	document.write(todosidolos.length);
+	
+	
+	
+</script>	
+</body>
+</html>	
+
