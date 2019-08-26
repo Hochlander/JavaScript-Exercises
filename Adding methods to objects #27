@@ -1,0 +1,36 @@
+ // aula 27, adding methods to obejects
+
+<html>
+<head>
+<script type="text/javascript">
+// a praxe é construir os objetos no cabeçalho
+
+// cria-se a funçao para criar o construtor
+	function pessoa(nome, idade){
+	this.nome=nome;
+	this.idade = idade;
+	
+	// a linha abaixo atribui o método apogeu ao objeto pessoa
+	this.temposdegloria = apogeu;
+	}
+	
+	// cria-se a função a ser incorporada pelo objeto
+		function apogeu(){
+			var gloria = this.idade - 20;
+			return gloria;
+		}
+	var balito = new pessoa("Balito davila", 29);
+	var evair = new pessoa ("Evair o Matador", 53);
+		
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	// feito isso, pode-se chamar objeto e atributo, da mesma forma que com o construtor
+	
+	document.write("o apogeu de " + evair.nome + 
+	" ocorreu há " + evair.temposdegloria() +" anos atrás");
+	
+</script>	
+</body>
+</html>	
