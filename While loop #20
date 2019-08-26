@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+// aula 20, while loop
+// é praticamente idêntico à sintaxe do loop while em Java. 
+// nesse caso, tb só muda a sintaxe para exibição da mensagem
+	var x = 2001;
+	
+	while (x<2015){
+		document.write(x +" Time medíocre <br/>");
+		
+		// observe que, no loop while, o incremento é dado depois de tudo
+		x+=1;
+	}		
+	
+</script>
+</body>
+</html>	
