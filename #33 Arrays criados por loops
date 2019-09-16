@@ -1,0 +1,23 @@
+
+
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+ // aula 33, array preenchidos por loops
+
+	
+	var perebas = new Array(3);
+	
+	// o loop for abaixo exibirá uma caixa "prompt" para o preenchimento de cada um dos três elementos do array
+	for(i=0; i<3; i++){
+		perebas[i] = prompt("Adicione um novo pereba  à lista:", "isso mesmo");
+	}	
+
+	
+	document.write(perebas[0], perebas[1], perebas[2]);
+
+	
+</script>	
+</body>
+</html>	
