@@ -1,0 +1,28 @@
+
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+ // aula 32, array methods
+// aprendendo sort, push, join e reverse
+	
+	var perebas = new Array("Rosembrick", "AdrianoChuva", "LucioVagabundo", "Daniel", "PatrikCavalo");
+	
+	// o método abaixo inverte o array
+	perebas.reverse();
+	
+	// o método abaixo insere mais elemento no array perebas
+	perebas.push("FabianoMorto", "SleepMenezes");
+	
+	// o método abaixo ordena em ordem alfabética
+	perebas.sort();
+	
+	// o método abaixo converte o array em String
+	var string1 = perebas.join();
+	
+	document.write(string1);
+
+	
+</script>	
+</body>
+</html>	
