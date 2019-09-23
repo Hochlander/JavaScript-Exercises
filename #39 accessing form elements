@@ -1,0 +1,26 @@
+
+
+<html>
+<head></head>
+<body>
+
+<form name="formbalito">
+	usuario: <input type="text" name= "nomedousuario">
+	senha: <input type="password" name= "senhadousuario">
+	<input type = "submit" value = "feito">
+</form>
+<script type="text/javascript">
+ // aula 38, acessando elementos em formulários
+ 
+//a linha abaixo acessa o nome do primeiro elemento do primeiro array
+// o formato dessa chamada é forms.elements  
+		var x = document.forms[0].elements[0].name;
+		document.write(x);
+		
+		// a linha abaixo usa outro formato para exibir a mesma coisa
+		var y = document.formbalito.nomedousuario.name;
+		document.write(y);
+	
+</script>	
+</body>
+</html>	
