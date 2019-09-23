@@ -1,0 +1,27 @@
+
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+ // aula 37, Date objects
+// construindo um relógio que reexibe  o horário a cada segundo
+
+function exibaTempo(){
+	var agora = new Date;
+	var horas = agora.getHours();
+	var minutos = agora.getMinutes();
+	var segundos = agora.getSeconds();
+	document.write(horas+":"+minutos+":"+segundos+"<br/>")
+}
+
+// da forma como está acima, o programa exzibiria o horário estático
+// com a função SetInterval, você podeestabelecer um intervalo para repetição indefinida da função
+// o tempodeSetInterval é determinado em milissegundos
+
+setInterval("exibaTempo()", 1000);
+
+// o intervalo de 1000 milissegundos significa uma exibição por segundo	
+	
+</script>	
+</body>
+</html>	
