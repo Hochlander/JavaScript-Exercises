@@ -1,0 +1,19 @@
+
+
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+ // aula 36, Math objects
+
+	
+	var n = prompt("Encontre a raiz de seu numero", "Digite seu número");
+	
+	var resposta = Math.sqrt(n);
+	
+	alert("a raiz de" + n + "é" + resposta);
+	
+</script>	
+</body>
+</html>	
+
